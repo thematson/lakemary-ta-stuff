@@ -23,7 +23,6 @@ main {
 /* create styles for use for all white main boxes */
 .block {
   background-color: #fff;
-
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -46,15 +45,19 @@ main {
 
   /* Visual */
   background: #4aaaa5;
+  padding: 15px 15px;
+  line-height: 20px;
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-light .navbar-nav > li > a:hover {
   color: #4aaaa5;
 }
 
 .navbar {
   border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* media query for nav background color change */
@@ -105,9 +108,6 @@ main {
 .text-muted-footer {
   /* Box-model */
   margin-top: 15px;
-
-  /* Typography */
-  color: #fff;
 }
 
 .two-toned-footer-color {
@@ -146,9 +146,9 @@ main {
 
 
 /* PORTFOLIO PAGE */
-.port-image {
+/* .port-image {
   margin: 20px auto;
-}
+} */
 /* END PORTFOLIO PAGE */
 
 
