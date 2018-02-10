@@ -38,23 +38,25 @@ main {
 /* NAV START */
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
-
   /* Typography */
   font-size: 24px;
   font-weight: bold;
   color: #fff;
-
   /* Visual */
   background: #4aaaa5;
+  padding: 15px 15px;
+  line-height: 20px;
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-light .navbar-nav > li > a:hover {
   color: #4aaaa5;
 }
 
 .navbar {
   border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* media query for nav background color change */
