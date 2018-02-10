@@ -28,12 +28,26 @@ main {
   margin-bottom: 30px;
 }
 
+.flex {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
 .block-header {
   /* Typography */
   color: #4aaaa5;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
+
+.flex-header {
+  /* Typography */
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
 
 /* NAV START */
 #logo {
@@ -61,8 +75,8 @@ main {
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4aaaa5;
+  .navbar-light {
+    background-color: #4aaaa5 !important;
   }
 }
 /* END NAV */
