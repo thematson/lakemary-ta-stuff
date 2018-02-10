@@ -23,7 +23,6 @@ main {
 /* create styles for use for all white main boxes */
 .block {
   background-color: #fff;
-
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -121,9 +120,6 @@ main {
 .text-muted-footer {
   /* Box-model */
   margin-top: 15px;
-
-  /* Typography */
-  color: #fff;
 }
 
 .two-toned-footer-color {
@@ -162,9 +158,9 @@ main {
 
 
 /* PORTFOLIO PAGE */
-.port-image {
+/* .port-image {
   margin: 20px auto;
-}
+} */
 /* END PORTFOLIO PAGE */
 
 
