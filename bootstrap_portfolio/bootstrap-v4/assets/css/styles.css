@@ -28,6 +28,12 @@ main {
   margin-bottom: 30px;
 }
 
+.flex {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
 .block-header {
   /* Typography */
   color: #4aaaa5;
@@ -35,32 +41,42 @@ main {
   font-weight: bold;
 }
 
+.flex-header {
+  /* Typography */
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+
 /* NAV START */
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
-
   /* Typography */
   font-size: 24px;
   font-weight: bold;
   color: #fff;
-
   /* Visual */
   background: #4aaaa5;
+  padding: 15px 15px;
+  line-height: 20px;
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-light .navbar-nav > li > a:hover {
   color: #4aaaa5;
 }
 
 .navbar {
   border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4aaaa5;
+  .navbar-light {
+    background-color: #4aaaa5 !important;
   }
 }
 /* END NAV */
